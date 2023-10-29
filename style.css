@@ -1,0 +1,77 @@
+*,
+*::after,
+*::before{
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+/* var */
+:root{
+    --index: calc(1vh + 1vw)
+}
+
+.input_name{
+    position: absolute;
+    top: calc(var(--index) * 8);
+    left: calc(var(--index) * 27);
+    border: solid #000 1px;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: calc(var(--index) * 0.65);
+    padding-left: 5px;
+    border-radius: 5px;
+    width: calc(var(--index) * 10);
+    height: calc(var(--index) * 1.4);
+}
+
+.input_cost{
+    position: absolute;
+    top: calc(var(--index) * 10);
+    left: calc(var(--index) * 27);
+    border: solid #000 1px;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: calc(var(--index) * 0.65);
+    padding-left: 5px;
+    border-radius: 5px;
+    width: calc(var(--index) * 10);
+    height: calc(var(--index) * 1.4);
+}
+
+.start{
+    position: absolute;
+    top: calc(var(--index) * 12);
+    left: calc(var(--index) * 27);
+    border: solid #000 1px;
+    background-color: #fff;
+    width: calc(var(--index) * 4);
+    height: calc(var(--index) * 1.1);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: calc(var(--index) * 0.75);
+}
+
+#msgList{
+    position: absolute;
+    top:calc(var(--index) * 15);
+    height: calc(var(--index) * 15);
+    width: 100%;
+    overflow-y: scroll;
+}
+
+.name{
+    /* position: absolute; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.add_btn{
+    position: absolute;
+    top: calc(var(--index) * 12);
+    left: calc(var(--index) * 31.5);
+    border: solid #000 1px;
+    background-color: #fff;
+    width: calc(var(--index) * 4);
+    height: calc(var(--index) * 1.1);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: calc(var(--index) * 0.75);
+}
